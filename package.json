@@ -1,7 +1,7 @@
 {
   "name": "progtrack-ai",
-  "version": "2.0.0",
-  "description": "ProgTrack AI \u2026 Smart Developer Learning Dashboard",
+  "version": "2.0.0", 
+  "description": "ProgTrack AI 2026 Smart Developer Learning Dashboard",
   "main": "main.js",
   "author": "ProgTrack AI",
   "license": "MIT",
