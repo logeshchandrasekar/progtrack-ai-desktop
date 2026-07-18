@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build output (large binaries — don't belong in source control)
+dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup files
+package.json.bak

@@ -1,0 +1,65 @@
+{
+  "name": "progtrack-ai",
+  "version": "2.0.0",
+  "description": "ProgTrack AI \u2026 Smart Developer Learning Dashboard",
+  "main": "main.js",
+  "author": "ProgTrack AI",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable",
+    "builddir": "electron-builder --win dir"
+  },
+  "dependencies": {
+    "electron-store": "8.2.0"
+  },
+  "devDependencies": {
+    "electron": "28.3.3",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "com.progtrack.ai",
+    "productName": "ProgTrack AI",
+    "copyright": "ProgTrack AI 2026",
+    "extraResources": [
+      {
+        "from": "build/icon.ico",
+        "to": "icon.ico"
+      },
+      {
+        "from": "renderer/assets/PROGTRACK_AI.mp4",
+        "to": "PROGTRACK_AI.mp4"
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "portable": {
+      "artifactName": "ProgTrackAI-Portable.exe"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ProgTrack AI"
+    }
+  }
+}
