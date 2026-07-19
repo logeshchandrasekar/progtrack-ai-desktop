@@ -4,8 +4,6 @@ A gamified, fully offline developer-learning dashboard for Windows, built with E
 
 Track topics and goals, log focused coding sessions, and watch your progress turn into XP, levels, streaks, and unlockable achievements — all stored privately on your own machine.
 
-📄 **Full technical documentation:** [DOCUMENTATION.md](https://github.com/logeshchandrasekar/progtrack-ai-desktop/blob/main/DOCUMENTATION.md)
-
 ---
 
 ## Features
@@ -100,3 +98,9 @@ In development — being prepared for a future desktop app store release.
 ## Tech Stack
 
 Electron · JavaScript · electron-store · electron-builder · Chart.js
+
+---
+
+📄 **Full technical documentation:** [DOCUMENTATION.md](https://github.com/logeshchandrasekar/progtrack-ai-desktop/blob/main/DOCUMENTATION.md)
+
+---
